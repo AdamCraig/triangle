@@ -25,4 +25,18 @@ public class Triangle {
   public boolean isEquilateral() {
     return mSide1 == mSide2 && mSide1 == mSide3;
   }
+
+  public boolean isIsosceles() {
+    return ((mSide1 == mSide2) && (mSide3 != mSide1) && (mSide3 != mSide2)) ||
+           ((mSide2 == mSide3) && (mSide1 != mSide2) && (mSide1 != mSide3)) ||
+           ((mSide3 == mSide1) && (mSide2 != mSide3) && (mSide2 != mSide1));
+  }
+
+  public boolean isScalene() {
+    return mSide1 != mSide2 && mSide1 != mSide3;
+  }
+
+  public boolean isNotATriangle() {
+    return ( ((mSide1 + mSide2) < mSide3) || ( (mSide2 + mSide3) < mSide1) || ( (mSide1 + mSide3) < mSide2) );
+  }
 }
