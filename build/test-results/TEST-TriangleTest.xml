@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TriangleTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-04-25T20:20:03" hostname="epicodus-79.local" time="0.001">
+<testsuite name="TriangleTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-04-25T20:23:17" hostname="epicodus-79.local" time="0.0">
   <properties/>
   <testcase name="newTriangle_instantiatesCorrectly" classname="TriangleTest" time="0.0"/>
   <testcase name="isScalene_noSidesEqual_true" classname="TriangleTest" time="0.0"/>

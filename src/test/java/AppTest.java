@@ -53,4 +53,14 @@ public class AppTest extends FluentTest {
     submit(".btn");
     assertThat(pageSource()).contains("You made a scalene triangle!");
   }
+
+  @Test
+  public void notATriangleTestIsNotATriangle() {
+    goTo("http://localhost:4567/");
+    fill("#side1").with("5");
+    fill("#side2").with("6");
+    fill("#side3").with("12");
+    submit(".btn");
+    assertThat(pageSource()).contains("You didn't make anything!");
+  }
 }

@@ -2,12 +2,14 @@
 <p><h3>Your triangle's side 2 length is $myTriangle.getSide2()</h3></p>
 <p><h3>Your triangle's side 3 length is $myTriangle.getSide3()</h3></p>
 
-#if ($myTriangle.isEquilateral())
+#if ($myTriangle.isNotATriangle())
+  <p><h3>You didn't make anything!</h3></p>
+#elseif ($myTriangle.isEquilateral())
   <p><h3>You made an equilateral triangle!</h3></p>
 #elseif ($myTriangle.isIsosceles())
   <p><h3>You made an isosceles triangle!</h3></p>
 #elseif ($myTriangle.isScalene())
   <p><h3>You made a scalene triangle!</h3></p>
 #else
-  <p><h3>You didn't make anything!</h3></p>
+  <p><h3>How did you get here?</p></h3>
 #end
