@@ -4,6 +4,8 @@
 
 #if ($myTriangle.isEquilateral())
   <p><h3>You made an equilateral triangle!</h3></p>
+#elseif ($myTriangle.isIsosceles())
+  <p><h3>You made an isosceles triangle!</h3></p>
 #else
-  <p><h3>You didn't make an equilateral triangle!</h3></p>
+  <p><h3>You didn't make anything!</h3></p>
 #end

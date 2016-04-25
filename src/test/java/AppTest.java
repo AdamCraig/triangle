@@ -32,4 +32,15 @@ public class AppTest extends FluentTest {
     submit(".btn");
     assertThat(pageSource()).contains("You made an equilateral triangle!");
   }
+
+
+  @Test
+  public void isoscelesTestIsAnIsosceles() {
+    goTo("http://localhost:4567/");
+    fill("#side1").with("5");
+    fill("#side2").with("5");
+    fill("#side3").with("4");
+    submit(".btn");
+    assertThat(pageSource()).contains("You made an isosceles triangle!");
+  }
 }
