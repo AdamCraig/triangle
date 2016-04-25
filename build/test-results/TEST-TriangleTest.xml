@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TriangleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-25T17:34:30" hostname="epicodus-79.local" time="0.0">
+<testsuite name="TriangleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-25T17:54:31" hostname="epicodus-79.local" time="0.001">
   <properties/>
-  <testcase name="newTriangle_instantiatesCorrectly" classname="TriangleTest" time="0.0"/>
+  <testcase name="newTriangle_instantiatesCorrectly" classname="TriangleTest" time="0.001"/>
+  <testcase name="isEquilateral_allSidesEqual_true" classname="TriangleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

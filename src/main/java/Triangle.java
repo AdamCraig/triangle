@@ -21,4 +21,8 @@ public class Triangle {
   public int getSide3() {
     return mSide3;
   }
+
+  public boolean isEquilateral() {
+    return mSide1 == mSide2 && mSide1 == mSide3;
+  }
 }
