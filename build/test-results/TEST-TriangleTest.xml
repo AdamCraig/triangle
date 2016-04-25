@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TriangleTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-04-25T20:15:39" hostname="epicodus-79.local" time="0.002">
+<testsuite name="TriangleTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-04-25T20:20:03" hostname="epicodus-79.local" time="0.001">
   <properties/>
   <testcase name="newTriangle_instantiatesCorrectly" classname="TriangleTest" time="0.0"/>
   <testcase name="isScalene_noSidesEqual_true" classname="TriangleTest" time="0.0"/>
   <testcase name="isNotATriangle_sumOfAnyTwoSidesLessThanLengthOfThirdSide_true" classname="TriangleTest" time="0.0"/>
   <testcase name="isEquilateral_allSidesNotEqual_false" classname="TriangleTest" time="0.0"/>
   <testcase name="isIsosceles_notExactlyTwoSidesEqual_false" classname="TriangleTest" time="0.0"/>
-  <testcase name="isIsosceles_exactlyTwoSidesEqual_true" classname="TriangleTest" time="0.001"/>
+  <testcase name="isIsosceles_exactlyTwoSidesEqual_true" classname="TriangleTest" time="0.0"/>
   <testcase name="isEquilateral_allSidesEqual_true" classname="TriangleTest" time="0.0"/>
   <testcase name="isScalene_oneOrMoreSidesEqual_false" classname="TriangleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
